@@ -1,0 +1,71 @@
+a {
+    color: #0700ED;
+}
+
+.menu {
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+p {
+    height: 24px;
+    margin-bottom: 26px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    display: flex;
+}
+
+.image {
+    width: 50%;
+}
+
+.new-content {
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.sugoi {
+    color: black;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inline {
+    display: block;
+}
+
+.new {
+    color: red;
+    display: inline-block;
+    cursor: text;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
